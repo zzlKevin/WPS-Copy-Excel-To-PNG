@@ -27,6 +27,6 @@ pip install pyinstaller pillow pystray pywin32 sv-ttk
 ## 打包exe参考
 
 ```bash
-& "D:\Program Files\Python313\python.exe" -m PyInstaller --onefile --noconsole --clean --collect-submodules PIL --collect-binaries PIL --hidden-import pystray --hidden-import win32clipboard --hidden-import win32ui --hidden-import win32gui --hidden-import win32con --hidden-import PIL._imaging --collect-data sv_ttk --noupx "wpsexceltojpg.py"
+& "D:\Program Files\Python313\python.exe" -m PyInstaller --onefile --noconsole --clean --collect-submodules PIL --collect-binaries PIL --hidden-import pystray --hidden-import win32clipboard --hidden-import win32ui --hidden-import win32gui --hidden-import win32con --hidden-import PIL._imaging --collect-data sv_ttk --noupx "wpsexceltopng.py"
 ```
 
